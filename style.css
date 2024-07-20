@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.announcement{
+    background-color: #806047;
+    color:#ffffff;
+    width: 99vw;
+    height: 52px;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header{
+    position: relative;
+}
+
+.nav{
+    display: flex;
+    width: 88vw;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    margin: 20px 6vw 0 6vw;
+}
+
+.background>img{
+    width: 99vw;
+    height: 125vh;
+    object-fit:cover;
+    object-position: 50% 20%;
+}
